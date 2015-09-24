@@ -39,5 +39,6 @@ Notice about this example:
 
 string = input ("Please enter a string of text (the bigger the better): ")
 s = string.lower()
-for x in list["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]:
-    print (x)
+for x in [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]: #convert variable to string?
+    x = s.count('x')
+    print(x)
