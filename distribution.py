@@ -47,13 +47,17 @@ for x in letterpos:
     b = letters[x]
     r = s.count(b)
     list1[x] = r
-list2 = copy.deepcopy[list1]
+list2 = copy.deepcopy(list1)
 list2.sort()
-bigbig = list2[25]
-print(list1)
-print(list2)
-z = list1.index(bigbig)
-print (z)
+letterpos2 = [25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+for x in letterpos2:
+    biggie = list2[x]
+    z = list1.index(biggie)
+    letter = letters[z]
+    while biggie > 0:
+        print letter
+        
+
     
 
     
