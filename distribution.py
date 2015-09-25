@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Sarah Dunbar
-Credit: http://stackoverflow.com/questions/6797984/how-to-convert-string-to-lowercase-in-python, Geoff Dunbar
+Credit: http://stackoverflow.com/questions/6797984/how-to-convert-string-to-lowercase-in-python, Geoff Dunbar, https://wiki.python.org/moin/HowTo/Sorting/
 
 Assignment:
 
@@ -49,7 +49,7 @@ for x in letterpos:
     list1[x] = r
 print ("The distribution of characters in '" + string + "' is: ")
 tuplelist = zip(list1, letters)
-tuplist = sorted(tuplelist, key=lambda lise: lise[0])
+tuplist = sorted(tuplelist, key=lambda lise: lise[0], reverse=True)
 print(tuplist)
 
 
