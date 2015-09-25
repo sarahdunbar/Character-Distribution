@@ -39,29 +39,13 @@ Notice about this example:
 
 string = input ("Please enter a string of text (the bigger the better): ")
 s = string.lower()
-a = s.count("a")
-b = s.count("b")
-c = s.count("c")
-d = s.count("d")
-e = s.count("e")
-f = s.count("f")
-g = s.count("g")
-h = s.count("h")
-i = s.count("i")
-j = s.count("j")
-k = s.count("k")
-l = s.count("l")
-m = s.count("m")
-n = s.count("n")
-o = s.count("o")
-p = s.count("p")
-q = s.count("q")
-r = s.count("r")
-s = s.count("s")
-t = s.count("t")
-u = s.count("u")
-v = s.count("v")
-w = s.count("w")
-x = s.count("x")
-y = s.count("y")
-z = s.count("z")
+list = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+letterpos = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+for x in letterpos:
+    b = letters[x]
+    r = s.count(b)
+    print (r)
+    
+
+    
