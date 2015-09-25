@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Sarah Dunbar
-Credit: http://stackoverflow.com/questions/6797984/how-to-convert-string-to-lowercase-in-python
+Credit: http://stackoverflow.com/questions/6797984/how-to-convert-string-to-lowercase-in-python, Geoff Dunbar
 
 Assignment:
 
@@ -37,18 +37,22 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 
+import copy
 string = input ("Please enter a string of text (the bigger the better): ")
 s = string.lower()
-list = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+list1 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 letterpos = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
 for x in letterpos:
     b = letters[x]
     r = s.count(b)
-    list[x] = r
-list2 = list.sort()
+    list1[x] = r
+list2 = copy.deepcopy[list1]
+list2.sort()
 bigbig = list2[25]
-z = list.index(bigbig)
+print(list1)
+print(list2)
+z = list1.index(bigbig)
 print (z)
     
 
