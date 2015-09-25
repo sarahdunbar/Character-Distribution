@@ -47,18 +47,33 @@ for x in letterpos:
     b = letters[x]
     r = s.count(b)
     list1[x] = r
-list2 = copy.deepcopy(list1)
-list2.sort()
-print ("The distribution of characters in "' + string + '" is: ")
-letterpos2 = [25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
-for x in letterpos2:
-    biggie = list2[x]
-    z = list1.index(biggie)
-    letter = letters[z]
-    while biggie > 0:
-        print(letter, end="")
-        biggie = biggie -1
-    print("", end="\n")
+print ("The distribution of characters in '" + string + "' is: ")
+tuplelist = zip(list1, letters)
+sorted(tuplelist)
+print(tuplelist)
+
+
+
+
+
+
+
+
+
+
+
+#list2 = copy.deepcopy(list1)
+#list2.sort()
+#print ("The distribution of characters in "' + string + '" is: ")
+#letterpos2 = [25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+#for x in letterpos2:
+#    biggie = list2[x]
+#    z = list1.index(biggie)
+#    letter = letters[z]
+#    while biggie > 0:
+ #       print(letter, end="")
+ #       biggie = biggie -1
+  #  print("", end="\n")
 
 
     
