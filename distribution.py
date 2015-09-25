@@ -49,8 +49,8 @@ for x in letterpos:
     list1[x] = r
 print ("The distribution of characters in '" + string + "' is: ")
 tuplelist = zip(list1, letters)
-sorted(tuplelist)
-print(tuplelist)
+tuplist = sorted(tuplelist, key=lambda lise: lise[0])
+print(tuplist)
 
 
 
