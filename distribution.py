@@ -46,7 +46,10 @@ for x in letterpos:
     b = letters[x]
     r = s.count(b)
     list[x] = r
-
+list2 = list.sort()
+bigbig = list2[25]
+z = list.index(bigbig)
+print (z)
     
 
     
