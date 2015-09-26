@@ -48,14 +48,15 @@ for x in letterpos:
     r = s.count(b)
     list1[x] = r
     
-def letternums (letterpos):
-    for x in letterpos:
-        b = letters[x]
+def letternums (letters):
+    for x in letters:
+        nerm = x
     
 print ("The distribution of characters in '" + string + "' is: ")
 tuplelist = zip(list1, letters)
-tuplist = sorted(tuplelist, key=lambda 1000*lise[0] + (26 - letternums(letterpos)), reverse=True)
-print(tuplist)
+print (letternums(letterpos))
+#tuplist = sorted(tuplelist, key=lambda 1000*lise[0] + (26 - (letternums(letters)), reverse=True)
+#print(tuplist)
 
 
 
