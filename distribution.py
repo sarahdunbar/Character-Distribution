@@ -56,7 +56,16 @@ def letternums (letter):
 print ("The distribution of characters in '" + string + "' is: ")
 tuplelist = zip(list1, letters)
 tuplist = sorted(tuplelist, key=lambda lise: 1000*lise[0] + letternums(lise[1]), reverse=True)
-print(tuplist)
+for x in tuplist:
+    if x[0] > 0:
+        i = x[0]
+        while i > 0:
+            print(x[1], end = "")
+            i = i - 1
+        print(" ", end="\n")
+        
+        
+                
 
 
 
