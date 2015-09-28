@@ -42,20 +42,21 @@ string = input ("Please enter a string of text (the bigger the better): ")
 s = string.lower()
 list1 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+letterdictionary = {"a":25, "b":24, "c":23, "d":22, "e":21, "f":20, "g":19, "h":18, "i":17, "j":16, "k":15, "l":14, "m":13, "n":12, "o":11, "p":10, "q":9, "r":8, "s":7, "t":6, "u":5, "v":4, "w":3, "x":2, "y":1, "z":0}
 letterpos = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
 for x in letterpos:
     b = letters[x]
     r = s.count(b)
     list1[x] = r
-    
-def letternums (letters):
-    for x in letters:
-        nerm = x
+
+def letternums (letter):
+    i = letterdictionary[letter]
+    return i
     
 print ("The distribution of characters in '" + string + "' is: ")
 tuplelist = zip(list1, letters)
 print (letternums(letterpos))
-#tuplist = sorted(tuplelist, key=lambda 1000*lise[0] + (26 - (letternums(letters)), reverse=True)
+tuplist = sorted(tuplelist, key=lambda 1000*lise[0] + letternums(lise[1]), reverse=True)
 #print(tuplist)
 
 
