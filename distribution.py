@@ -55,9 +55,8 @@ def letternums (letter):
     
 print ("The distribution of characters in '" + string + "' is: ")
 tuplelist = zip(list1, letters)
-print (letternums(letterpos))
-tuplist = sorted(tuplelist, key=lambda 1000*lise[0] + letternums(lise[1]), reverse=True)
-#print(tuplist)
+tuplist = sorted(tuplelist, key=lambda lise: 1000*lise[0] + letternums(lise[1]), reverse=True)
+print(tuplist)
 
 
 
