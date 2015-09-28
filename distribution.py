@@ -62,7 +62,7 @@ for x in tuplist:
         while i > 0:
             print(x[1], end = "")
             i = i - 1
-        print(" ", end="\n")
+        print("", end="\n")
 
 
     
