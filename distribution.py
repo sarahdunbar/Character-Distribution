@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Sarah Dunbar
-Credit: http://stackoverflow.com/questions/6797984/how-to-convert-string-to-lowercase-in-python, Geoff Dunbar, https://wiki.python.org/moin/HowTo/Sorting/, Anoushka Alavilli, Eric Dennison
+Credit: http://stackoverflow.com/questions/6797984/how-to-convert-string-to-lowercase-in-python, Geoff Dunbar, https://wiki.python.org/moin/HowTo/Sorting/, Anoushka Alavilli, Mr. Dennison
 
 Assignment:
 
