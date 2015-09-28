@@ -63,32 +63,6 @@ for x in tuplist:
             print(x[1], end = "")
             i = i - 1
         print(" ", end="\n")
-        
-        
-                
-
-
-
-
-
-
-
-
-
-
-
-#list2 = copy.deepcopy(list1)
-#list2.sort()
-#print ("The distribution of characters in "' + string + '" is: ")
-#letterpos2 = [25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
-#for x in letterpos2:
-#    biggie = list2[x]
-#    z = list1.index(biggie)
-#    letter = letters[z]
-#    while biggie > 0:
- #       print(letter, end="")
- #       biggie = biggie -1
-  #  print("", end="\n")
 
 
     
