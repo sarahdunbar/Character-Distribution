@@ -53,7 +53,7 @@ def letternums (letter):
     i = letterdictionary[letter]
     return i
     
-print ("The distribution of characters in '" + string + "' is: ")
+print ('The distribution of characters in "' +  string  + '" is: ')
 tuplelist = zip(list1, letters)
 tuplist = sorted(tuplelist, key=lambda lise: 1000*lise[0] + letternums(lise[1]), reverse=True)
 for x in tuplist:
